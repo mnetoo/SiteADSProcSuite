@@ -5,11 +5,11 @@ import {
   Route,
 } from 'react-router-dom';
 
-import Home from './pages/home'
+import Home from './pages/home/home'
 
 function App() {
   return (
-    <Router basename="/SiteADSProcSuite">
+    <Router basename="/ADSProcSuite">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

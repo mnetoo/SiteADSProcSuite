@@ -1,10 +1,80 @@
-body
-{
-    background-color: white;
+/* Estilos principais */
+.home-container {
+  min-height: 100vh;
+  width: 100vw; /* força ocupar toda a largura */
+  background: linear-gradient(to bottom, #0a1f44, #122a63, #050d21);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* para não colar tudo no meio */
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    margin-top: 20%;
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #cbd5e1;
+}
+
+/* Botões */
+.btn-primary,
+.btn-secondary {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-secondary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #2563eb;
+}
+
+/* Funcionalidades */
+.features {
+  padding: 7rem 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
