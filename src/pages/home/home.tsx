@@ -59,12 +59,6 @@ const Home = () => {
           />
         </div>
       </section>
-
-      {/* CTA Final */}
-      {/* <section className="cta">
-        <h2>Ready to take your flight data to the next level?</h2>
-        <button className="btn-secondary">Request Demo</button>
-      </section> */}
     </div>
   );
 };
